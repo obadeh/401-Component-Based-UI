@@ -2,11 +2,13 @@
 $header-color: rgb(201, 150, 235);
 $section-color:rgb(68, 2, 5);
 body{
-    background-color:rgb(80, 79, 79);
+    background-color:#820000;
+    text-align: center;
 }
 header {
   h1 {
     color: $header-color;
+    text-align: center;
   }
 }
 
