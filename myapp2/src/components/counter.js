@@ -37,8 +37,8 @@ class Counter extends React.Component {
         <section>
           <h3>{this.state.count}</h3>
           <h2 className={this.state.numState}>{this.state.numState}</h2>
-          <button onClick={this.handleClick}><span>increment</span></button>
-          <button onClick={this.handleClick2}><span>decrement</span></button>
+          <button className='b1' onClick={this.handleClick}><span>increment</span></button>
+          <button className='b2' onClick={this.handleClick2}><span>decrement</span></button>
         </section>
       )
     }

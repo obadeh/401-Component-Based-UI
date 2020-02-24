@@ -1,8 +1,8 @@
 import React from 'react';
 import './app.scss';
-import Header from './hedder.js';
-import Footer from './fotter.js';
-import Counter from './counter.js'
+import Header from './components/hedder.js';
+import Footer from './components/fotter.js';
+import Counter from './components/counter.js'
 
 
 class App extends React.Component {

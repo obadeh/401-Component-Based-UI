@@ -36,6 +36,22 @@ button {
   margin: 5px;
 }
 
+.b1 span:after {
+  content: '+';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.b2 span:after {
+  content: '-';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
 button span {
   cursor: pointer;
   display: inline-block;
@@ -45,7 +61,7 @@ button span {
 
 
 button:hover span {
-  padding-right: 15px;
+  padding-right: 20px;
 }
 
 button:hover span:after {

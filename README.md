@@ -1,15 +1,13 @@
-# 401-Component-Based-UI
 
+# LAB - Class 27
 
-# LAB - Class 26
-
-## Component-Based-UI
+## React Testing and Deployment
 
 ### Author: obada alquran
 
 ### Links and Resources
 
-- [submission PR](https://github.com/obadeh/401-Component-Based-UI/pull/1)
+- [submission PR](https://github.com/obadeh/401-Component-Based-UI/pull/2)
 - [ci/cd](http://xyz.com) (GitHub Actions)
 
 
