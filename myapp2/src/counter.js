@@ -15,28 +15,30 @@ class Counter extends React.Component {
     handleClick = e => {
       e.preventDefault();
       let count = this.state.count + 1
-      if(count>0){ this.state.numState='positive' }
-      if(count===0){this.state.numState='zero'}
+      let numState = this.state.numState
+      if(count>0){ numState='positive' }
+      if(count===0){numState='zero'}
 
-      this.setState({ count });
+      this.setState({ count,numState });
     }
     handleClick2 = e => {
       e.preventDefault();
       let count = this.state.count - 1
+      let numState = this.state.numState
       
-      if(count<0){ this.state.numState='negative'}
-      if(count===0){this.state.numState='zero'}
+      if(count<0){ numState='negative'}
+      if(count===0){numState='zero'}
 
-      this.setState({ count });
+      this.setState({ count ,numState});
     }
   
     render() {
       return (
         <section>
           <h3>{this.state.count}</h3>
-          <h2>{this.state.numState}</h2>
-          <button onClick={this.handleClick}>increment the counter</button>
-          <button onClick={this.handleClick2}>decrement the counter</button>
+          <h2 className={this.state.numState}>{this.state.numState}</h2>
+          <button onClick={this.handleClick}><span>increment</span></button>
+          <button onClick={this.handleClick2}><span>decrement</span></button>
         </section>
       )
     }

@@ -12,3 +12,12 @@ code {
     monospace;
 }
 
+
+.positive{
+  color: #d3ffd8;
+}
+.negative{
+  color: #f4511e;
+}
+
+

@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
       <header className="words-app">
-        <h1>my first react</h1>
+        <h1>Counter</h1>
       </header>
     )
   }
