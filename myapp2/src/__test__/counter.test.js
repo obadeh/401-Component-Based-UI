@@ -20,5 +20,5 @@ describe('<Thing />', () => {
   it('renders correctly', () => {
     const tree = renderer.create(<Counter />).toJSON();
     expect(tree).toMatchSnapshot();
-  })
+  });
 });
